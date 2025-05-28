@@ -50,26 +50,36 @@
 
 ## 📂 專案結構
 
-<pre><code>src/ ├── assets/ # 靜態樣式（CSS） │ └── styles.css ├── components/ # 可重用元件 │ └── InvoiceForm.vue # 新增/編輯發票表單 │ └── InvoiceTable.vue # 顯示發票清單表格 ├── views/ # 路由頁面元件 │ ├── LoginView.vue │ ├── DashboardView.vue │ └── InvoicesView.vue ├── router/ # Vue Router 設定 │ └── index.js ├── App.vue # 根元件 └── main.js # 程式進入點 </code></pre>
+```
+src/
+├── assets/             # 靜態樣式（CSS）
+│   └── styles.css
+├── components/         # 可重用元件
+│   ├── InvoiceForm.vue     # 新增/編輯發票表單
+│   └── InvoiceTable.vue    # 顯示發票清單表格
+├── views/              # 路由頁面元件
+│   ├── LoginView.vue
+│   ├── DashboardView.vue
+│   └── InvoicesView.vue
+├── router/             # Vue Router 設定
+│   └── index.js
+├── App.vue             # 根元件
+└── main.js             # 程式進入點
+```
+
 ---
 
 ## 🚀 開始使用
 
-### 安裝依賴
-\`\`\`bash
+```
+# 安裝依賴
 npm install
-\`\`\`
 
-### 本機啟動
-\`\`\`bash
+# 本機啟動
 npm run dev
-\`\`\`
 
-預設網址：
+```
 
-\`\`\`
-http://localhost:5173
-\`\`\`
 
 ---
 
