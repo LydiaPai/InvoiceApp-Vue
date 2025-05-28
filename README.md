@@ -50,23 +50,7 @@
 
 ## 📂 專案結構
 
-\`\`\`
-src/
-├── assets/                # 靜態樣式（CSS）
-│   └── styles.css
-├── components/            # 可重用元件
-│   ├── InvoiceForm.vue    # 新增/編輯發票表單
-│   └── InvoiceTable.vue   # 顯示發票清單表格
-├── views/                 # 路由頁面元件
-│   ├── LoginView.vue
-│   ├── DashboardView.vue
-│   └── InvoicesView.vue
-├── router/                # Vue Router 設定
-│   └── index.js
-├── App.vue                # 根元件
-└── main.js                # 程式進入點
-\`\`\`
-
+<pre><code>src/ ├── assets/ # 靜態樣式（CSS） │ └── styles.css ├── components/ # 可重用元件 │ └── InvoiceForm.vue # 新增/編輯發票表單 │ └── InvoiceTable.vue # 顯示發票清單表格 ├── views/ # 路由頁面元件 │ ├── LoginView.vue │ ├── DashboardView.vue │ └── InvoicesView.vue ├── router/ # Vue Router 設定 │ └── index.js ├── App.vue # 根元件 └── main.js # 程式進入點 </code></pre>
 ---
 
 ## 🚀 開始使用
@@ -139,25 +123,4 @@ localStorage.clear()
 
 ---
 
-## 🖼 畫面示意圖（建議可加入）
 
-> Dashboard 頁面
-
-![Dashboard](./screenshots/dashboard.png)
-
-> 發票管理頁面
-
-![Invoices](./screenshots/invoices.png)
-
----
-
-## 📜 授權 License
-
-本專案採用 MIT License，可自由使用與修改。
-
----
-
-## 🙋‍♀️ 作者
-
-Created by Lydia ✨  
-Vue 練習作品，感謝您的使用！
